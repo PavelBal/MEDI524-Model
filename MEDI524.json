@@ -231,7 +231,165 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "MEDI524-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Sim_MEDI524|Organism|PeripheralVenousBlood|MEDI524|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "DallAcqua2006_Study A-MEDI524-Measurement",
+              "X": "DallAcqua2006_Engineered_IgG_PKSimImport.MEDI524.Study A|Time",
+              "Y": "DallAcqua2006_Engineered_IgG_PKSimImport.MEDI524.Study A|ObservedData|||MEDI524|Measurement",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "DallAcqua2006_Study B-MEDI524-Measurement",
+              "X": "DallAcqua2006_Engineered_IgG_PKSimImport.MEDI524.Study B|Time",
+              "Y": "DallAcqua2006_Engineered_IgG_PKSimImport.MEDI524.Study B|ObservedData|||MEDI524|Measurement",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Plasma concentration (linear scale)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "MEDI524\nSim_MEDI524\n2023-03-07 11:56"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "MEDI524-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Sim_MEDI524|Organism|PeripheralVenousBlood|MEDI524|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "DallAcqua2006_Study A-MEDI524-Measurement",
+              "X": "DallAcqua2006_Engineered_IgG_PKSimImport.MEDI524.Study A|Time",
+              "Y": "DallAcqua2006_Engineered_IgG_PKSimImport.MEDI524.Study A|ObservedData|||MEDI524|Measurement",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "DallAcqua2006_Study B-MEDI524-Measurement",
+              "X": "DallAcqua2006_Engineered_IgG_PKSimImport.MEDI524.Study B|Time",
+              "Y": "DallAcqua2006_Engineered_IgG_PKSimImport.MEDI524.Study B|ObservedData|||MEDI524|Measurement",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Plasma concentration (log scale)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "MEDI524\nSim_MEDI524\n2023-03-07 11:56"
+        }
+      ]
     }
   ],
   "ObservedData": [
